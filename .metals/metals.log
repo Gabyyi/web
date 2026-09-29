@@ -1,0 +1,464 @@
+2026.09.29 16:06:44 INFO  Started: Metals version 1.6.9 in folders '/Users/admin/anul 4/semestrul 1/web/web' for client Visual Studio Code 1.121.0.
+2026.09.29 16:06:44 INFO  Memory monitor started
+2026.09.29 16:06:44 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.29 16:06:52 INFO  running '/Users/admin/anul 4/semestrul 1/web/web/lab1/gradlew --stacktrace --console=plain --init-script /var/folders/7t/lxd868q10n11wf4wny0z8pxc0000gn/T/metals2228037248062114345/init-script.gradle bloopInstall'
+2026.09.29 16:07:14 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:07:14 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:07:14 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Output:
+
+2026.09.29 16:07:19 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:07:19 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java
+2026.09.29 16:07:19 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Output:
+
+2026.09.29 16:07:24 INFO  
+2026.09.29 16:07:24 INFO  Welcome to Gradle 9.7.1!
+2026.09.29 16:07:24 INFO  
+2026.09.29 16:07:24 INFO  Here are the highlights of this release:
+2026.09.29 16:07:24 INFO   - Isolated Projects graduates to incubating
+2026.09.29 16:07:24 INFO   - Broader Configuration Cache compatibility
+2026.09.29 16:07:24 INFO   - Resilient Sync helps you fix broken builds
+2026.09.29 16:07:24 INFO   - More source locations in problem reports
+2026.09.29 16:07:24 INFO  
+2026.09.29 16:07:24 INFO  For more details see https://docs.gradle.org/9.7.1/release-notes.html
+2026.09.29 16:07:24 INFO  
+2026.09.29 16:07:24 INFO  Starting a Gradle Daemon (subsequent builds will be faster)
+2026.09.29 16:07:25 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:07:25 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java
+2026.09.29 16:07:25 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Output:
+
+2026.09.29 16:07:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:07:28 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java
+2026.09.29 16:07:28 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Output:
+
+2026.09.29 16:07:35 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Using fallback presentation compiler.
+2026.09.29 16:07:35 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java
+2026.09.29 16:07:35 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Output:
+
+2026.09.29 16:07:48 INFO  > Task :configureBloopInstall FAILED
+2026.09.29 16:07:48 INFO  
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR FAILURE: Build failed with an exception.
+2026.09.29 16:07:48 INFO  [Incubating] Problems report is available at: file:///Users/admin/anul%204/semestrul%201/web/web/lab1/build/reports/problems/problems-report.html
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR * What went wrong:
+2026.09.29 16:07:48 ERROR Execution failed for task ':configureBloopInstall' (registered by plugin class 'bloop.integrations.gradle.BloopPlugin').
+2026.09.29 16:07:48 ERROR > Could not resolve all dependencies for configuration ':compileClasspath'.
+2026.09.29 16:07:48 ERROR    > Failed to calculate the value of task ':compileJava' property 'javaCompiler'.
+2026.09.29 16:07:48 ERROR       > Cannot find a Java installation on your machine (Mac OS X 26.5.2 aarch64) matching: {languageVersion=21, vendor=any vendor, implementation=vendor-specific, nativeImageCapable=false}. Toolchain download repositories have not been configured.
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR * Try:
+2026.09.29 16:07:48 ERROR > Learn more about toolchain auto-detection and auto-provisioning at https://docs.gradle.org/9.7.1/userguide/toolchains.html#sec:auto_detection.
+2026.09.29 16:07:48 ERROR > Learn more about toolchain repositories at https://docs.gradle.org/9.7.1/userguide/toolchains.html#sub:download_repositories.
+2026.09.29 16:07:48 ERROR > Run with --info or --debug option to get more log output.
+2026.09.29 16:07:48 ERROR > Run with --scan to get full insights from a Build Scan (powered by Develocity).
+2026.09.29 16:07:48 ERROR > Get more help at https://help.gradle.org.
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR * Exception is:
+2026.09.29 16:07:48 ERROR org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':configureBloopInstall' (registered by plugin class 'bloop.integrations.gradle.BloopPlugin').
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:135)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:133)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+2026.09.29 16:07:48 INFO  
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+2026.09.29 16:07:48 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+2026.09.29 16:07:48 INFO  
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+2026.09.29 16:07:48 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.09.29 16:07:48 INFO  
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+2026.09.29 16:07:48 INFO  For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.09.29 16:07:48 INFO  1 actionable task: 1 executed
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:111)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:146)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:131)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:35)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:43)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:40)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$executeTasks$0(DefaultBuildLifecycleController.java:323)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:324)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.model.StateTransitionController.lambda$tryTransition$0(StateTransitionController.java:235)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.model.StateTransitionController.tryTransition(StateTransitionController.java:235)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.build.DefaultBuildLifecycleController.executeTasks(DefaultBuildLifecycleController.java:314)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.runWork(DefaultBuildWorkGraphController.java:220)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$runAndReleaseLocks$0(DefaultWorkerLeaseService.java:302)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultWorkerLeaseService.runAndReleaseLocks(DefaultWorkerLeaseService.java:300)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:296)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:288)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:131)
+2026.09.29 16:07:48 ERROR 	at org.gradle.composite.internal.DefaultBuildController.doRun(DefaultBuildController.java:182)
+2026.09.29 16:07:48 ERROR 	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.lambda$run$0(DefaultBuildController.java:199)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+2026.09.29 16:07:48 ERROR 	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.run(DefaultBuildController.java:199)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:65)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+2026.09.29 16:07:48 ERROR Caused by: org.gradle.api.internal.artifacts.ivyservice.TypedResolveException: Could not resolve all dependencies for configuration ':compileClasspath'.
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.ResolveExceptionMapper.mapFailure(ResolveExceptionMapper.java:73)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$1.call(DefaultConfiguration.java:672)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$1.call(DefaultConfiguration.java:662)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphInBuildOperation(DefaultConfiguration.java:662)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.lambda$resolveExclusivelyIfRequired$0(DefaultConfiguration.java:654)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.project.DefaultProjectState$CalculatedModelValueImpl.update(DefaultProjectState.java:350)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveExclusivelyIfRequired(DefaultConfiguration.java:649)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:642)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ResolverResultsResolutionResultProvider.getValue(DefaultConfiguration.java:624)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ResolverResultsResolutionResultProvider.getValue(DefaultConfiguration.java:610)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:563)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultResolvableConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+2026.09.29 16:07:48 ERROR 	at bloop.integrations.gradle.tasks.ConfigureBloopInstallTask.addSourceSetAsInputs(ConfigureBloopInstallTask.scala:58)
+2026.09.29 16:07:48 ERROR 	at bloop.integrations.gradle.tasks.ConfigureBloopInstallTask.$anonfun$run$1(ConfigureBloopInstallTask.scala:38)
+2026.09.29 16:07:48 ERROR 	at bloop.integrations.gradle.tasks.ConfigureBloopInstallTask.$anonfun$run$1$adapted(ConfigureBloopInstallTask.scala:38)
+2026.09.29 16:07:48 ERROR 	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+2026.09.29 16:07:48 ERROR 	at bloop.integrations.gradle.tasks.ConfigureBloopInstallTask.run(ConfigureBloopInstallTask.scala:38)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.Either$Right.fold(Either.java:176)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:105)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:85)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+2026.09.29 16:07:48 ERROR 	... 61 more
+2026.09.29 16:07:48 ERROR Caused by: org.gradle.api.internal.provider.AbstractProperty$PropertyQueryException: Failed to calculate the value of task ':compileJava' property 'javaCompiler'.
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.finalizeNow(AbstractProperty.java:315)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.lambda$beforeRead$0(AbstractProperty.java:307)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.ValueState.finalizeOnReadIfNeeded(ValueState.java:142)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.beforeRead(AbstractProperty.java:307)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.beforeRead(AbstractProperty.java:299)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.calculateOwnValue(AbstractProperty.java:168)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateOwnPresentValue(AbstractMinimalProvider.java:80)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.get(AbstractMinimalProvider.java:100)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.JavaBasePlugin.lambda$configureCompileDefaults$1(JavaBasePlugin.java:323)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.internal.JvmPluginsHelper.computeSourceCompatibilityConvention(JvmPluginsHelper.java:192)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.internal.JvmPluginsHelper.lambda$configureCompileDefaults$0(JvmPluginsHelper.java:187)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.UncheckedException.uncheckedCall(UncheckedException.java:103)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper$2.doGetValue(ConventionAwareHelper.java:147)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper$MappedPropertyImpl.getValue(ConventionAwareHelper.java:194)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper.getConventionValue(ConventionAwareHelper.java:180)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.tasks.compile.JavaCompile_Decorated.getSourceCompatibility(Unknown Source)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.internal.JvmPluginsHelper.computeTargetCompatibilityConvention(JvmPluginsHelper.java:198)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.internal.JvmPluginsHelper.lambda$configureCompileDefaults$1(JvmPluginsHelper.java:188)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.UncheckedException.uncheckedCall(UncheckedException.java:103)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper$2.doGetValue(ConventionAwareHelper.java:147)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper$MappedPropertyImpl.getValue(ConventionAwareHelper.java:194)
+2026.09.29 16:07:48 ERROR 	at org.gradle.internal.extensibility.ConventionAwareHelper.getConventionValue(ConventionAwareHelper.java:180)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.tasks.compile.JavaCompile_Decorated.getTargetCompatibility(Unknown Source)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.plugins.jvm.internal.DefaultJvmLanguageUtilities.lambda$getMaxTargetJvmVersion$1(DefaultJvmLanguageUtilities.java:109)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.FlatMapProvider.doMapValue(FlatMapProvider.java:59)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.FlatMapProvider.backingProvider(FlatMapProvider.java:76)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.FlatMapProvider.getProducer(FlatMapProvider.java:82)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.MergeProvider.getProducer(MergeProvider.java:111)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.TransformBackedProvider.beforeRead(TransformBackedProvider.java:95)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.TransformBackedProvider.calculateOwnValue(TransformBackedProvider.java:80)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.FlatMapProvider.calculateOwnValue(FlatMapProvider.java:53)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DelegatingProviderWithValue.calculateOwnValue(DelegatingProviderWithValue.java:45)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.TransformBackedProvider.calculateOwnValue(TransformBackedProvider.java:81)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.MapCollectors$EntryWithValueFromProvider.collectEntries(MapCollectors.java:104)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultMapProperty$CollectingSupplier.lambda$calculateOwnValue$0(DefaultMapProperty.java:595)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractCollectingSupplier.calculateValue(AbstractCollectingSupplier.java:87)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultMapProperty$CollectingSupplier.calculateOwnValue(DefaultMapProperty.java:594)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractCollectingSupplier.calculateValue(AbstractCollectingSupplier.java:41)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultMapProperty.calculateValueFrom(DefaultMapProperty.java:349)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultMapProperty.calculateValueFrom(DefaultMapProperty.java:58)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.doCalculateValue(AbstractProperty.java:176)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.calculateOwnValue(AbstractProperty.java:169)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateOwnPresentValue(AbstractMinimalProvider.java:80)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.get(AbstractMinimalProvider.java:100)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.attributes.DefaultMutableAttributeContainer.doRealize(DefaultMutableAttributeContainer.java:163)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.attributes.DefaultMutableAttributeContainer.asImmutable(DefaultMutableAttributeContainer.java:229)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.attributes.FreezableAttributeContainer.freeze(FreezableAttributeContainer.java:51)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.lambda$markAsObserved$0(DefaultConfiguration.java:1013)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.runActionInHierarchy(DefaultConfiguration.java:1046)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.markAsObserved(DefaultConfiguration.java:1003)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultLocalVariantGraphResolveStateBuilder.finalize(DefaultLocalVariantGraphResolveStateBuilder.java:199)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.ivyservice.moduleconverter.dependencies.DefaultLocalVariantGraphResolveStateBuilder.createRootVariantState(DefaultLocalVariantGraphResolveStateBuilder.java:95)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.asRootVariant(DefaultConfigurationResolver.java:137)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:123)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$1.call(DefaultConfiguration.java:670)
+2026.09.29 16:07:48 ERROR 	... 183 more
+2026.09.29 16:07:48 ERROR Caused by: org.gradle.jvm.toolchain.internal.install.exceptions.ToolchainProvisioningException: Cannot find a Java installation on your machine (Mac OS X 26.5.2 aarch64) matching: {languageVersion=21, vendor=any vendor, implementation=vendor-specific, nativeImageCapable=false}. Toolchain download repositories have not been configured.
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.install.DefaultJavaToolchainProvisioningService.tryInstall(DefaultJavaToolchainProvisioningService.java:103)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.downloadToolchain(JavaToolchainQueryService.java:233)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.lambda$query$0(JavaToolchainQueryService.java:203)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.query(JavaToolchainQueryService.java:203)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.lambda$resolveToolchain$0(JavaToolchainQueryService.java:166)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.resolveToolchain(JavaToolchainQueryService.java:164)
+2026.09.29 16:07:48 ERROR 	at org.gradle.jvm.toolchain.internal.JavaToolchainQueryService.lambda$findMatchingToolchain$0(JavaToolchainQueryService.java:142)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultProvider.calculateOwnValue(DefaultProvider.java:73)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.WithSideEffectProvider.calculateOwnValue(WithSideEffectProvider.java:54)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.TransformBackedProvider.calculateOwnValue(TransformBackedProvider.java:81)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.FlatMapProvider.calculateOwnValue(FlatMapProvider.java:53)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.TransformBackedProvider.calculateOwnValue(TransformBackedProvider.java:81)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.calculateValue(AbstractMinimalProvider.java:115)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractMinimalProvider.withFinalValue(AbstractMinimalProvider.java:169)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultProperty.finalValue(DefaultProperty.java:163)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.DefaultProperty.finalValue(DefaultProperty.java:33)
+2026.09.29 16:07:48 ERROR 	at org.gradle.api.internal.provider.AbstractProperty.finalizeNow(AbstractProperty.java:312)
+2026.09.29 16:07:48 ERROR 	... 242 more
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR 
+2026.09.29 16:07:48 ERROR BUILD FAILED in 55s
+2026.09.29 16:07:49 INFO  time: ran 'gradle bloopInstall' in 56s
+2026.09.29 16:07:49 ERROR Gradle command failed: /Users/admin/anul 4/semestrul 1/web/web/lab1/gradlew --stacktrace --console=plain --init-script /var/folders/7t/lxd868q10n11wf4wny0z8pxc0000gn/T/metals2228037248062114345/init-script.gradle bloopInstall
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java
+2026.09.29 16:07:49 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:07:49 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Output:
+
+Sept 29, 2026 4:09:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.29 16:09:42 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:23:14 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:15 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:23:14 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+Sept 29, 2026 4:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.09.29 16:23:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:19 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:20 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:20 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:24 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:24 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:24 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:25 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:25 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:27 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:27 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:27 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Output:
+
+2026.09.29 16:23:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:23:28 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Output:
+
+2026.09.29 16:23:29 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:23:29 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:03 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:24:03 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java
+Sept 29, 2026 4:24:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+2026.09.29 16:24:03 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:24:03 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:24:03 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Output:
+
+2026.09.29 16:24:03 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:05 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java
+2026.09.29 16:24:05 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:04 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:06 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:06 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java
+2026.09.29 16:24:06 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:06 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:06 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java. Using fallback presentation compiler.
+2026.09.29 16:24:11 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:11 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java
+2026.09.29 16:24:11 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:11 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:11 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Using fallback presentation compiler.
+2026.09.29 16:24:12 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java
+2026.09.29 16:24:12 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Output:
+
+2026.09.29 16:24:12 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Using fallback presentation compiler.
+2026.09.29 16:24:11 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Using fallback presentation compiler.
+2026.09.29 16:24:12 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/test/java/com/example/lab1/Lab1ApplicationTests.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:14 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java
+2026.09.29 16:24:14 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:13 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java. Using fallback presentation compiler.
+2026.09.29 16:24:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:15 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:24:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:32 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:34 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:24:34 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileService.java
+2026.09.29 16:24:34 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileNotFoundException.java
+2026.09.29 16:24:34 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java
+2026.09.29 16:24:34 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileRepository.java
+2026.09.29 16:24:34 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:34 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+Sept 29, 2026 4:24:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.29 16:24:46 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:53 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:24:54 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Using fallback presentation compiler.
+2026.09.29 16:24:55 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java
+2026.09.29 16:24:55 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Using fallback presentation compiler.
+2026.09.29 16:24:54 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Using fallback presentation compiler.
+2026.09.29 16:24:56 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/ProfileController.java. Using fallback presentation compiler.
+2026.09.29 16:31:01 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:31:01 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java
+2026.09.29 16:31:01 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:31:01 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:31:01 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:32:42 WARN  no build target for: /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java
+2026.09.29 16:32:42 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:32:42 WARN  Running javac-semanticdb failed for file:///Users/admin/anul%204/semestrul%201/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Output:
+
+2026.09.29 16:33:15 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:35:22 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+2026.09.29 16:35:43 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/Lab1Application.java. Using fallback presentation compiler.
+2026.09.29 16:39:29 INFO  no build target found for /Users/admin/anul 4/semestrul 1/web/web/lab1/src/main/java/com/example/lab1/profile/Profile.java. Using fallback presentation compiler.
+Sept 29, 2026 4:39:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
